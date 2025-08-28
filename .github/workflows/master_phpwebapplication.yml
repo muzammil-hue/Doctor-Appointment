@@ -3,7 +3,7 @@ name: Build and Deploy Laravel App to Azure
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
@@ -51,4 +51,5 @@ jobs:
           app-name: 'PhpWebapplication'
           slot-name: 'Production'
           package: Docter-Appointment/Backend
+
 
